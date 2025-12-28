@@ -1,0 +1,4 @@
+Please use postgresql:// instead of postgres:// as your dialect when connecting via SQLAlchemy.
+
+Example:create_engine("postgresql+psycopg2://...")
+
