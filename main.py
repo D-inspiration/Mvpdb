@@ -1,10 +1,10 @@
 import psycopg2
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 import socket
 
 # Load environment variables from .env
-load_dotenv()
+#load_dotenv()
 
 # Fetch variables
 USER = os.getenv("user")
